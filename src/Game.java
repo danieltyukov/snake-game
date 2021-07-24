@@ -3,8 +3,7 @@ import javax.swing.JFrame;
 public class Game extends JFrame {
 
   Game() {
-    Game panel = new Game();
-    this.add(panel);
+    this.add(new GameWindow());
     this.setTitle("Snake Game");
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.setResizable(false);
